@@ -72,7 +72,7 @@ plugins=(git z command-not-found sudo npm yarn debian dotenv cargo rust gitignor
 autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source .oh-my+zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
