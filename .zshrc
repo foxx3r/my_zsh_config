@@ -101,6 +101,7 @@ source .oh-my+zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias myip="curl http://ipecho.net/plain; echo"
 alias untar="tar -xvf"
+alias unxz="tar -xvf"
 alias ungz="tar -vzxf"
 alias untarbz2="tar -jxvf"
 alias ports="netstat -tulanp"
