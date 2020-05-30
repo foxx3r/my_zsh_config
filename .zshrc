@@ -105,6 +105,7 @@ alias unxz="tar -xvf"
 alias ungz="tar -vzxf"
 alias untarbz2="tar -jxvf"
 alias ports="netstat -tulanp"
+alias cat="cat $0 | bat"
 
 function acp() {
     git remote add origin https://github.com/$1
